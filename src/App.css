@@ -1,0 +1,74 @@
+body{ 
+  background-color: #deee62;
+}
+
+.Wer {
+ width: 100%;
+ height: 100%;
+}
+
+.Fruit {
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+.Categry {
+ display: flex;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ gap: 100px;
+}
+
+.Trendy {
+ width: 100%;
+}
+
+.Img-Gallery {
+ width: 100%;
+}
+
+/* ProductCard.css */
+.product-card {
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ padding: 16px;
+ text-align: center;
+ width: 250px; /* Adjust as needed */
+ margin: 10px;
+ background-color: #e1dbb0;
+}
+
+.product-image {
+ width: 100%;
+ height: auto;
+ border-radius: 8px;
+}
+
+.product-title {
+ margin-top: 8px;
+ font-size: 14px;
+ color: #333;
+}
+
+/* src/components/NewArrivals.css */
+.new-arrivals {
+ padding: 30px;
+}
+
+.product-grid {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+.product-title{
+  font-size: 1.2rem;
+}
+.Deer{
+  text-align: center;
+  justify-content: center;
+}
+
+
+
