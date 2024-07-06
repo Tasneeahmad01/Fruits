@@ -2,7 +2,9 @@ import React from 'react'
 
 function AddCart() {
   return (
-    <div>AddCart Startisflkdg a.</div>
+    <div>
+      <h1>This Page start now in AddCart images</h1>
+    </div>
   )
 }
 
