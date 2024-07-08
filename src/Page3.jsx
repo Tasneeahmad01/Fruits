@@ -1,6 +1,7 @@
 import React from 'react';
 import './Page3.css'; 
 
+
 const images = [
   {
     src: 'https://media.istockphoto.com/id/1130112004/photo/vegan-detox-buddha-bowl-with-turmeric-roasted-chickpeas-greens-avocado-persimmon-blood-orange.webp?b=1&s=170667a&w=0&k=20&c=wIBkdI3RvZkip-iMyD05uPI4XFvi2MNOFc_9LlNdbqU=',
@@ -54,7 +55,7 @@ const images = [
     src: 'https://media.istockphoto.com/id/542297104/photo/smoothie-in-a-bowl-with-fruits-and-seeds.jpg?s=612x612&w=0&k=20&c=PIQsdEVKqE_56RKE8pYOtCXJLoKcc7ZRkJnvl1KHJjk=',
     alt: 'Image 1',
     title: 'Title 1',
-    paragraph:'Smoothie in a bowl with fruits and seeds, copy space, white wood',
+    paragraph:'Smoothie in a bowl with fruits and seeds, copy space, white then should for everyone rice.,',
     heading: 'Heading 1',
     buttonText: 'Add Cart'
   },
@@ -80,6 +81,7 @@ function Page3() {
           <a href="" className="para"><p>{image.paragraph}</p></a>
           <h4>{image.heading}</h4>
          <a href="/AddCart"><button onClick={Like}>{image.buttonText}</button></a>
+         
         </div>
       ))}
     </div>

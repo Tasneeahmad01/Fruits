@@ -1,0 +1,15 @@
+body{
+text-align: center;
+}
+.Imags{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+}
+.Flow{
+    width: 250px;
+    
+}

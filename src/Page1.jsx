@@ -19,9 +19,9 @@ const Page1 = () => {
     
     <div className="new-arrivals">
       <div>
-        <img src="Fruit.jpeg" alt="" className="Img-Gallery"/>
+        <img src="https://www.shutterstock.com/shutterstock/photos/1140803750/display_1500/stock-vector-forest-berry-and-milk-splash-fruit-and-yogurt-d-realistic-vector-icon-1140803750.jpg" alt="" className="Img-Gallery"/>
       </div>
-      <h5 className="text-center mt-5">Organic food</h5>
+      <h5 className="text-center mt-5" style={{color:"#ffb703"}}>Organic food</h5>
       <h2 className="text-center">New Arrivals</h2>
       <div className="product-grid">
         {products.map((product, index) => (

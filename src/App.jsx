@@ -8,6 +8,8 @@ import Home from './Home';
  import Page2 from './Page2';
  import Page3 from './Page3';
 import AddCart from './AddCart'
+import Flavour from './Flavour';
+import Footer from './Footer';
 
 function App() {
   
@@ -23,11 +25,13 @@ function App() {
       </>}></Route>
       <Route path="/home" element = {<Home/>} />
       <Route path="/AddCart" element = {<AddCart/>} />
+      <Route path="/Flavour" element = {<Flavour/>} />
+
+
 
     </Routes>
-  
-    </BrowserRouter>   
-    
+    </BrowserRouter>  
+    <Footer/> 
     </>
   )
 }

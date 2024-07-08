@@ -9,7 +9,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#"><img src="https://seeklogo.com/images/F/fruits-logo-4E6FCC2A0A-seeklogo.com.png?v=638248487190000000" alt="Mixu-Fruits" width={90}/></Navbar.Brand>
+        <Navbar.Brand href="https://seeklogo.com/images/F/fruits-logo-4E6FCC2A0A-seeklogo.com.png?v=638248487190000000"><img src="https://seeklogo.com/images/F/fruits-logo-4E6FCC2A0A-seeklogo.com.png?v=638248487190000000" alt="Mixu-Fruits" width={90}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -22,7 +22,7 @@ function NavScrollExample() {
             <Nav.Link href="#action2" style={{color:"orange", fontSize:"20px"}}>about</Nav.Link>
             <Nav.Link href="#action1" style={{color:"orange", fontSize:"20px"}}>category</Nav.Link>
             <Nav.Link href="#action1" className='Try' style={{color:"orange", fontSize:"20px", gap:"50px"}}>shop</Nav.Link>
-            <Nav.Link href="#action1" style={{color:"orange", fontSize:"20px"}}>flavour</Nav.Link>
+            <Nav.Link href="/flavour" style={{color:"orange", fontSize:"20px"}}>flavour</Nav.Link>
             <Nav.Link href="#action1" style={{color:"orange", fontSize:"20px"}}>feedback</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
