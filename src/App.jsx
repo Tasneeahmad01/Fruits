@@ -10,6 +10,8 @@ import Home from './Home';
 import AddCart from './AddCart'
 import Flavour from './Flavour';
 import Footer from './Footer';
+// import SearchBox from './SearchBox';
+import FeedBack from './FeedBack';
 
 function App() {
   
@@ -17,6 +19,7 @@ function App() {
     <>
     <BrowserRouter>
     <Navbar/>
+    {/* <SearchBox/> */}
     <Routes>
       <Route path="/" element={<>
           <Page1/>
@@ -26,6 +29,8 @@ function App() {
       <Route path="/home" element = {<Home/>} />
       <Route path="/AddCart" element = {<AddCart/>} />
       <Route path="/Flavour" element = {<Flavour/>} />
+      <Route path="/FeedBack" element = {<FeedBack/>} />
+
 
 
 
@@ -37,3 +42,8 @@ function App() {
 }
 
 export default App
+
+
+
+
+
